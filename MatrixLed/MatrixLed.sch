@@ -95,7 +95,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Led Matrix 8x8"
-Date ""
+Date "2017-04-17"
 Rev "1.0"
 Comp "Frizzy Electronics"
 Comment1 "David Matias Alonso"
