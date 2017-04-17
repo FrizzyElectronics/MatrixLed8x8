@@ -28,6 +28,65 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:ir
+LIBS:L9110
+LIBS:Lattice
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:motor_drivers
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:ttl_ieee
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:zetex
+LIBS:Zilog
+LIBS:max
 LIBS:MatrixLed-cache
 EELAYER 25 0
 EELAYER END
@@ -1019,4 +1078,15 @@ Connection ~ 7500 3600
 Wire Wire Line
 	7700 3600 7850 3600
 Connection ~ 7850 3600
+$Comp
+L MAX7219 U?
+U 1 1 58F6F327
+P 3450 3000
+F 0 "U?" H 3450 2300 60  0000 C CNN
+F 1 "MAX7219" H 3450 3700 60  0000 C CNN
+F 2 "" H 4050 3000 60  0000 C CNN
+F 3 "" H 4050 3000 60  0000 C CNN
+	1    3450 3000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
