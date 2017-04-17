@@ -1,4 +1,4 @@
-update=lun 17 abr 2017 12:29:15 CEST
+update=lun 17 abr 2017 14:17:36 CEST
 version=1
 last_client=kicad
 [general]
@@ -148,3 +148,4 @@ LibName114=/home/david/Escritorio/Electronics/kicad_simbolos/xilinx
 LibName115=/home/david/Escritorio/Electronics/kicad_simbolos/zetex
 LibName116=/home/david/Escritorio/Electronics/kicad_simbolos/Zilog
 LibName117=/home/david/Escritorio/Electronics/kicad_simbolos/max
+LibName118=/home/david/Escritorio/Electronics/kicad_simbolos/LargeKickstarter
