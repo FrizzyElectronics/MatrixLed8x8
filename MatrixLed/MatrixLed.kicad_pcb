@@ -8,7 +8,7 @@
     (drawings 14)
     (tracks 518)
     (zones 0)
-    (modules 143)
+    (modules 144)
     (nets 33)
   )
 
@@ -21,7 +21,7 @@
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
@@ -195,6 +195,18 @@
     (via_drill 0.3302)
     (uvia_dia 0.508)
     (uvia_drill 0.127)
+  )
+
+  (module logos_frizzy:cuadrado (layer F.Cu) (tedit 0) (tstamp 58FE713C)
+    (at 189.738 72.517)
+    (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
+      (effects (font (thickness 0.3)))
+    )
+    (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
+      (effects (font (thickness 0.3)))
+    )
+    (fp_poly (pts (xy 1.628145 1.2446) (xy -1.6256 1.2446) (xy -1.6256 -1.23952) (xy 1.628145 -1.23952)
+      (xy 1.628145 1.2446)) (layer F.SilkS) (width 0.01))
   )
 
   (module logos_frizzy:cuadrado (layer F.Cu) (tedit 0) (tstamp 58FE5F7B)
@@ -594,7 +606,7 @@
   )
 
   (module logos_frizzy:cuadrado (layer F.Cu) (tedit 0) (tstamp 58F54774)
-    (at 203.962 71.501)
+    (at 203.2 72.517)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )
@@ -630,11 +642,11 @@
   )
 
   (module logos_frizzy:cuadrado (layer F.Cu) (tedit 0) (tstamp 58F54765)
-    (at 203.073 69.342 45)
-    (fp_text reference G*** (at 0 0 45) (layer F.SilkS) hide
+    (at 203.073 69.342 180)
+    (fp_text reference G*** (at 0 0 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )
-    (fp_text value LOGO (at 0.75 0 45) (layer F.SilkS) hide
+    (fp_text value LOGO (at 0.75 0 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )
     (fp_poly (pts (xy 1.628145 1.2446) (xy -1.6256 1.2446) (xy -1.6256 -1.23952) (xy 1.628145 -1.23952)
