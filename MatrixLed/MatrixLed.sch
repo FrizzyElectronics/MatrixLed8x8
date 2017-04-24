@@ -1241,8 +1241,6 @@ Wire Wire Line
 Wire Wire Line
 	3750 3050 3500 3050
 Wire Wire Line
-	3750 3150 3500 3150
-Wire Wire Line
 	3750 3250 3500 3250
 Wire Wire Line
 	3750 3350 3500 3350
@@ -1505,4 +1503,6 @@ Text GLabel 3600 5000 2    39   Input ~ 0
 SDA
 Text GLabel 3600 5100 2    39   Input ~ 0
 SCL
+Wire Wire Line
+	3750 3150 3500 3150
 $EndSCHEMATC
