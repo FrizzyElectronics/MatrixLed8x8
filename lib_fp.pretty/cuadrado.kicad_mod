@@ -1,0 +1,10 @@
+(module logos_frizzy:cuadrado (layer F.Cu) (tedit 0)
+  (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+  (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+  (fp_poly (pts (xy 1.628145 1.2446) (xy -1.6256 1.2446) (xy -1.6256 -1.23952) (xy 1.628145 -1.23952)
+    (xy 1.628145 1.2446)) (layer F.SilkS) (width 0.01))
+)
